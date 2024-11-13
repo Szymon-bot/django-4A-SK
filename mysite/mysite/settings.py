@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 """
 Django settings for mysite project.
 
@@ -10,6 +11,8 @@ For the full list of settings and their values, see
 https://docs.djangoproject.com/en/5.1/ref/settings/
 """
 
+=======
+>>>>>>> 3240e2301eb005813694940b3f5c5b72e1674087
 from pathlib import Path
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
@@ -20,7 +23,11 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/5.1/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
+<<<<<<< HEAD
 SECRET_KEY = 'django-insecure-2^=t+c7gt5z&tvr7l34q(b7xvfnt*l-bi&kq7+0os6k-0##@p%'
+=======
+SECRET_KEY = 'django-insecure-axux316ws042vft*ry-=regut47&wau6&^&a%@6dj@m&zpa813'
+>>>>>>> 3240e2301eb005813694940b3f5c5b72e1674087
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -31,6 +38,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+<<<<<<< HEAD
     "polls.apps.PollsConfig",
     "django.contrib.admin",
     "django.contrib.auth",
@@ -38,6 +46,15 @@ INSTALLED_APPS = [
     "django.contrib.sessions",
     "django.contrib.messages",
     "django.contrib.staticfiles",
+=======
+    'django.contrib.admin',
+    'django.contrib.auth',
+    'django.contrib.contenttypes',
+    'django.contrib.sessions',
+    'django.contrib.messages',
+    'django.contrib.staticfiles',
+    'polls.apps.PollsConfig',
+>>>>>>> 3240e2301eb005813694940b3f5c5b72e1674087
 ]
 
 MIDDLEWARE = [
@@ -106,7 +123,11 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LANGUAGE_CODE = 'en-us'
 
+<<<<<<< HEAD
 TIME_ZONE = 'UTC'
+=======
+TIME_ZONE = 'CET'
+>>>>>>> 3240e2301eb005813694940b3f5c5b72e1674087
 
 USE_I18N = True
 
